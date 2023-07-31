@@ -1,6 +1,6 @@
 This is a simple program to test if gamma correction is taken into account by OpenGL when computing the mipmaps
 
-All the code is contained in [main.cpp](https://github.com/tuket/test_mipmaps_gamma_correction_2/blob/master/src/main.cpp)
+All the relevant code is contained in [main.cpp](https://github.com/tuket/test_mipmaps_gamma_correction_2/blob/master/src/main.cpp)
 
 1) Compile like any standard CMake project.
 2) Run the program in the cmd line like: `test.exe input_image.png`
