@@ -6,10 +6,10 @@ All the code is contained in [main.cpp](https://github.com/tuket/test_mipmaps_ga
 2) Run the program in the cmd line like: `test.exe input_image.png`
 
 The program will create 4 output files in the working directory:
-0) cpu_no_conversion.png: box filtering performed on the CPU, without any gamma conversions
-1) cpu_conversion.png: box filtering performed on the CPU, converting from gamma to linear, and back from linear to gamma
-2) gpu_no_conversion.png: let OpenGL create the mipmaps, RGB format
-3) gpu_conversion.png: let OpenGL create the mipmaps, SRGB format
+1) cpu_no_conversion.png: box filtering performed on the CPU, without any gamma conversions
+2) cpu_conversion.png: box filtering performed on the CPU, converting from gamma to linear, and back from linear to gamma
+3) gpu_no_conversion.png: let OpenGL create the mipmaps, RGB format
+4) gpu_conversion.png: let OpenGL create the mipmaps, SRGB format
 
 Also the program print a table with the difference between the previous output images. For example:
 ```
